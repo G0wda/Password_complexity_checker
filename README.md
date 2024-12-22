@@ -1,7 +1,7 @@
-# Password Strength Assessment Tool
+# Password Complexity Checker
 
 ## Overview
-The Password Strength Assessment Tool is designed to evaluate the strength of user-provided passwords based on various criteria. This tool provides users with immediate feedback, helping them to create more secure passwords that meet modern security standards.
+The Password Complexity Checker is designed to evaluate the strength of user-provided passwords based on various criteria. This tool provides users with immediate feedback, helping them to create more secure passwords that meet modern security standards.
 
 ## Features
 - **Length Assessment**: Checks if the password meets a minimum length requirement.
@@ -16,7 +16,6 @@ The Password Strength Assessment Tool is designed to evaluate the strength of us
 
 ## Technologies Used
 - **Programming Language**: Python
-- **Framework**: Flask (optional, for web-based implementation)
 - **Additional Libraries**:
   - `re` for regular expressions
   - `argparse` for CLI implementations (optional)
@@ -24,11 +23,11 @@ The Password Strength Assessment Tool is designed to evaluate the strength of us
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/password-strength-tool.git
+   git clone https://github.com/G0wda/Password_complexity_checker.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd password-strength-tool
+   cd Password_complexity_checker
    ```
 3. Install dependencies (if required):
    ```bash
@@ -39,25 +38,20 @@ The Password Strength Assessment Tool is designed to evaluate the strength of us
 ### CLI
 1. Run the tool in your terminal:
    ```bash
-   python password_tool.py
+   python Password_complexity_checker.py
    ```
 2. Enter your password when prompted to receive an assessment.
 
 ### Integration
 You can integrate this tool into larger applications by importing the main assessment function:
 ```python
-from password_tool import assess_password_strength
+from Password_complexity_checker import assess_password_strength
 
 feedback = assess_password_strength("YourPassword123!")
 print(feedback)
 ```
 
-### Web Application
-1. Start the Flask server (if applicable):
-   ```bash
-   python app.py
-   ```
-2. Access the web interface at `http://localhost:5000`.
+
 
 ## Password Strength Criteria
 | Strength       | Requirements                                                                 |
@@ -98,4 +92,4 @@ Suggestions: Consider adding more unique characters for additional security.
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Contact
-For questions or feedback, please contact [your email] or open an issue in the repository.
+For questions or feedback, please contact santhoshgowda9542@gmail.com or open an issue in the repository.
